@@ -1,5 +1,5 @@
 import React from 'react';
-import UploadUI from './UploadUI';
+import UploadUI from './components/UploadUI/UploadUI';
 
 function App() {
   return (
