@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import UploadUI from './components/UploadUI/UploadUI';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Drag & Drop File Upload Challenge</h1>
+        <p>A simple UI to handle file uploads via drag & drop or click.</p>
       </header>
+      <UploadUI />
     </div>
   );
 }
